@@ -1,0 +1,17 @@
+ <table class="table">
+    <h2 class="text-center py-3">{{peliculas.titulo}}</h2>
+        <thead>
+            <th>Nombre</th>
+            <th>Director</th>
+            <th>Año Estreno</th>
+        </thead>
+        <tbody>
+            {{#each peliculas.peliculas}}
+            <tr>
+            <td>{{this.nombre}}</td>
+            <td>{{this.director}}</td>
+            <td>{{this.anio_estreno}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>

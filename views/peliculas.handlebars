@@ -1,0 +1,21 @@
+
+{{#if titulo}}
+    <h1 class="text-center mt-3">{{titulo}}</h1>
+    {{else}}
+    <h1 class="text-center mt-3"> PÁGINA PELÍCULAS.</h1>
+{{/if}}
+
+<section class="peliculas py-3">
+    <ul class="lista_peliculas">
+        {{#each peliculas.peliculas}}
+            <li>Pelicula: {{this.nombre}} -  Director: {{this.director}} - Fecha Estreno: {{this.anio_estreno}}</li>
+        {{/each}}
+    </ul>
+</section>
+
+
+<section class="peliculas">
+   {{> tablePeliculas
+        tituloTabla="Tabla peliculas"
+   }}
+</section>

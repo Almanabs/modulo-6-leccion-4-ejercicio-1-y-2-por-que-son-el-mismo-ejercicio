@@ -1,0 +1,20 @@
+
+{{#if titulo}}
+    <h1 class="text-center mt-3">{{titulo}}</h1>
+    {{else}}
+    <h1 class="text-center mt-3"> PÁGINA SERIES.</h1>
+{{/if}}
+
+<section class="series py-3">
+    <ul class="lista_series">
+        {{#each series.series}}
+            <li>Serie: {{this.nombre}} -  Temporadas: {{this.temporadas}} - Fecha Estreno: {{this.anio_estreno}}</li>
+        {{/each}}
+    </ul>
+</section>
+
+<section>
+   {{> tableSeries
+        tituloTabla="Tabla series"
+   }}
+</section>

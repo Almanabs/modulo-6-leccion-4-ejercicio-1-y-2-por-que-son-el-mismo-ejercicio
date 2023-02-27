@@ -1,0 +1,15 @@
+{
+    "series": [
+        {
+            "nombre": "Black mirror",
+            "temporadas": 5,
+            "anio_estreno": 2011
+        },
+        {
+            "nombre": "La casa de papel",
+            "temporadas": 2,
+            "anio_estreno": 2017
+        }
+    ],
+    "titulo": "Series de Netflix"
+}

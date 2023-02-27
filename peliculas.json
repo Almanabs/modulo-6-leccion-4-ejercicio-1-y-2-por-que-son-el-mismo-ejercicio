@@ -1,0 +1,15 @@
+{
+    "peliculas": [
+        {
+            "nombre": "2001 Odisea en el espacio",
+            "director": "Stanley Kubrick",
+            "anio_estreno": 1968
+        },
+        {
+            "nombre": "The Matrix",
+            "director": "Lilly Wachowski, Lana Wachowski",
+            "anio_estreno": 1999
+        }
+    ],
+    "titulo": "Películas de Netflix"
+}
